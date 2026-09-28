@@ -1,0 +1,38 @@
+[
+  {
+    "frame": "Upstream mandate",
+    "mechanism": "A downstream executive rejects uncertified strategic memos until the writer attaches audit proof.",
+    "actor": "Decision receiver / executive",
+    "trigger": "Memo enters approval",
+    "carrier": "Audit certificate attached to memo",
+    "pressure_vector": "Approval gate forces upstream adoption",
+    "failure_mode": "Receiver lacks authority to reject unaudited work"
+  },
+  {
+    "frame": "Supplier vetting proof",
+    "mechanism": "A buyer requires vendors to include verified reasoning proof before a proposal can be accepted.",
+    "actor": "Buyer / procurement gatekeeper",
+    "trigger": "Proposal submission",
+    "carrier": "Verified appendix in proposal",
+    "pressure_vector": "Submission acceptance depends on proof",
+    "failure_mode": "Vendor evaluation ignores reasoning quality"
+  },
+  {
+    "frame": "Zero-trust attestation",
+    "mechanism": "Readers distrust incoming claims unless they carry a reasoning-attestation artifact.",
+    "actor": "Reader / reviewer",
+    "trigger": "External claim is received",
+    "carrier": "Attestation stamp on document",
+    "pressure_vector": "Unattested claims become suspect-by-default",
+    "failure_mode": "Verification friction is too high"
+  },
+  {
+    "frame": "Diligence defense",
+    "mechanism": "A team keeps an audit trail proving that a consequential claim was checked before approval.",
+    "actor": "Project owner",
+    "trigger": "Decision record is created",
+    "carrier": "Audit trail attached to decision log",
+    "pressure_vector": "Liability cover and blame reduction",
+    "failure_mode": "Audit record provides no perceived protection"
+  }
+]

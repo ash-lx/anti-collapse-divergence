@@ -1,0 +1,122 @@
+{
+  "skill_name": "anti-collapse-divergence",
+  "version": "2.3",
+  "evals": [
+    {
+      "id": "gtm-reasoning-audit",
+      "prompt": "Explore 20 GTM frames for a reasoning-audit website that checks strategic writing for cognitive bias. Avoid SEO, ads, outbound, generic PLG, community, and partnerships.",
+      "expected_output": "A mechanism-level set of GTM frames with banned bubbles, likely model attractors to mutate, distinct mechanism DNA, collision check, repair pass, and optional mechanism-aware landing. Frames should not collapse into generic channels or repeated attestation/gate patterns.",
+      "assertions": [
+        "The output lists banned obvious GTM bubbles before generating frames.",
+        "The output names likely model attractors and mutation requirements before generation.",
+        "Distinctness is supported by closest-pair causal comparisons; the 70% target is not treated as a field-count proof.",
+        "The output includes a collision check clustering hidden meta-mechanisms.",
+        "Overloaded families are inspected without automatically deleting supported differences.",
+        "If top picks are included, they cover distinct engines.",
+        "If no fresh-context judge is used, the output explicitly marks review as provisional.",
+        "The output does not use a 0-100 semantic-spread score as proof."
+      ]
+    },
+    {
+      "id": "clarifying-question",
+      "prompt": "Brainstorm ideas for my startup.",
+      "expected_output": "One self-contained clarification question with A/B/C/D choices, a recommended default, and pushback. It should not dump a questionnaire.",
+      "assertions": [
+        "Exactly one clarifying question is asked.",
+        "The options are concrete and easy to answer.",
+        "A recommended default is given.",
+        "The question is about a missing variable that would change the mechanism space."
+      ]
+    },
+    {
+      "id": "repair-existing-output",
+      "prompt": "Audit this set of candidate explanations for cancellation of a monthly online course subscription. Use the skill's Repair audit approach to identify duplicates, meaningful differences, and any cases that cannot yet be judged. Do not invent customer evidence. Keep the existing IDs, do not generate replacement ideas, and do not select a preferred explanation. Use self-audit for this bounded exercise; do not delegate.\n\nSet/version: renewal-causes-v1\nR1: At monthly renewal, a subscriber cancels because rent and food now consume the available household budget. A temporary discount could let someone who still needs the course continue.\nR2: At monthly renewal, a subscriber cancels because they passed the only exam they bought the course to prepare for. Extra access has little value even at a lower price.\nR3: A learner reaches the recurring payment date, finds essentials have exhausted the money available, and ends membership despite wanting to keep studying. Lowering that payment could change the decision.\nR4: The renewal becomes a moment when the learner renegotiates their identity.\nR5: At monthly renewal, the subscriber intends to continue and has enough money, but an expired payment card prevents the charge. Updating the card allows the subscription to continue.",
+      "expected_output": "A source-grounded audit that merges the duplicated lack-of-money explanation while preserving completed-task and payment-failure causes; the identity fragment remains unresolved.",
+      "assertions": [
+        "R1 and R3 are identified as duplicate budget-pressure explanations despite different wording.",
+        "R2 is retained as meaningfully different from R1/R3; discounting does not restore demand after the task is complete.",
+        "R5 is retained as payment failure rather than lack of funds or demand.",
+        "R4 remains unresolved without invented customer evidence or an invented causal path.",
+        "Cited IDs and short excerpts belong to the correct source frames.",
+        "The output obeys the request for no replacement ideas or preferred explanation.",
+        "Self-audit is labeled accurately; file reads and writes do not count as comparison tools."
+      ]
+    },
+    {
+      "id": "coding-import-pipeline",
+      "prompt": "Before implementing, give me orthogonal architecture frames for a messy file import pipeline with unreliable inputs.",
+      "expected_output": "Architecture frames that differ by system boundary, state ownership, isolation model, migration path, and failure model, without defaulting to queues/microservices/retries.",
+      "assertions": [
+        "The output bans generic architecture defaults such as queues, retries, microservices, and caching.",
+        "Frames are architecture mechanisms rather than implementation tasks.",
+        "The collision check uses coding-native clusters, not only GTM clusters."
+      ]
+    },
+    {
+      "id": "analytics-churn",
+      "prompt": "Give me weird but plausible hypotheses for why churn increased. Avoid normal cohort/segment/funnel answers.",
+      "expected_output": "A broad set of causal hypothesis frames with distinct behavioral mechanisms, signals, confounders, and cheap discriminating tests only if narrowing is requested.",
+      "assertions": [
+        "The output bans generic analytics slices.",
+        "Frames propose causal mechanisms rather than only segments or dashboards.",
+        "The collision check uses analytics-native clusters."
+      ]
+    },
+    {
+      "id": "research-genai-strategy",
+      "prompt": "Explore research angles on GenAI and managerial strategy that don't collapse into adoption, benefits, risks, and productivity.",
+      "expected_output": "Research frames with different theoretical lenses, mechanisms, units of analysis, paradoxes, boundary conditions, and contribution types.",
+      "assertions": [
+        "The output bans broad adoption/benefits/risks/productivity buckets.",
+        "Frames include theory-facing mechanisms, not just topics.",
+        "The collision check uses research-native clusters."
+      ]
+    },
+    {
+      "id": "selective-grounding-service",
+      "prompt": "Give me exactly six meaningfully different service concepts for a small town library that lends 40 portable Wi-Fi hotspots for two weeks at a time. Devices often sit idle between a return and the next loan, while residents still report long waits. Staff can spend at most 20 minutes a day on this service. The current reservation list is refreshed once each day; some borrowers have no internet access at home. There is no budget for new hardware or an app. Explore the problem broadly, including whether idle inventory is the right thing to optimize. Use Compact mode, concise prose, and do not choose a winner or give an implementation plan.",
+      "expected_output": "Six distinct service frames grounded at the level needed to expose missing access, timing, staffing, or handoff assumptions without a full implementation plan.",
+      "assertions": [
+        "Exactly six concepts are given, respecting the no-new-hardware/app and staff-time constraints.",
+        "Mechanisms do not silently rely on live reservation data or internet access for every borrower.",
+        "Material unresolved dependencies are named briefly; common dependencies are not repeated as a per-idea checklist.",
+        "The closest pair is compared by causal path, and actual review provenance is reported.",
+        "No winner or implementation plan is supplied."
+      ]
+    },
+    {
+      "id": "creative-prose",
+      "prompt": "Give me exactly six meaningfully different short-film premises. Two adult siblings are waiting at a rural bus shelter after leaving their father's birthday dinner. The entire film takes place at the shelter, with only those two on screen and ordinary belongings as props. Their relationship should change through what they do while waiting. Avoid flashbacks, voiceover, supernatural events, a hidden-death reveal, a discovered letter, or a last-minute confession that resolves everything. Use Compact mode and readable prose, not a table of production requirements. Do not choose a winner.",
+      "expected_output": "Six concrete premises whose dramatic action or experience differs, with concise review and no generic production requirements.",
+      "assertions": [
+        "Exactly six premises respect the location, cast, prop, and forbidden-device constraints.",
+        "Differences are visible in what the siblings do and how their relationship changes, rather than only the premise labels.",
+        "The output avoids a repeated engine/example/dependency scorecard or generic acting/editing notes.",
+        "The closest premises are actually compared rather than only asserting six distinct engines.",
+        "Review provenance matches the actual trace, and no winner is selected."
+      ]
+    }
+  ],
+  "script_fixtures": [
+    {
+      "id": "attestation-collapse",
+      "path": "evals/fixtures/attestation-collapse.json",
+      "expected": "exit 1; candidate_clusters_found true; review_needed true; repair_needed null; neither collisions nor distinctness certified"
+    },
+    {
+      "id": "diverse-basic",
+      "path": "evals/fixtures/diverse-basic.json",
+      "expected": "exit 0; candidate_clusters_found false; neither collisions nor distinctness certified"
+    },
+    {
+      "id": "lexicon-blind-collapse",
+      "path": "evals/fixtures/lexicon-blind-collapse.json",
+      "expected": "known false negative: exit 0; no distinctness certificate"
+    },
+    {
+      "id": "distinct-renewal-causes",
+      "path": "evals/fixtures/distinct-renewal-causes.json",
+      "expected": "known false positive: exit 1; review rather than automatic repair; inability to pay and completed task remain semantically distinct"
+    }
+  ]
+}

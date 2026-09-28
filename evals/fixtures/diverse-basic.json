@@ -1,0 +1,38 @@
+[
+  {
+    "frame": "Doubt itch loop",
+    "mechanism": "A private uncertainty spike triggers a scan because the result gives either relief or a useful catch.",
+    "actor": "Individual writer",
+    "trigger": "Am I fooling myself moment",
+    "carrier": "Private draft",
+    "pressure_vector": "Variable relief reward",
+    "failure_mode": "Findings feel noisy or shaming"
+  },
+  {
+    "frame": "Pre-mortem seed crystal",
+    "mechanism": "The audit produces the first risk seeds that structure a team pre-mortem before a project starts.",
+    "actor": "Project lead",
+    "trigger": "Project kickoff",
+    "carrier": "Bias-derived risk seed list",
+    "pressure_vector": "Better discussion and fewer blind spots",
+    "failure_mode": "Team treats it as generic risk brainstorming"
+  },
+  {
+    "frame": "Reader lens infection",
+    "mechanism": "Seeing one named bias in another memo gives the reader a reusable lens they apply to their own drafts.",
+    "actor": "Reader who becomes writer",
+    "trigger": "Reads a verdict on someone else's memo",
+    "carrier": "Remembered bias label",
+    "pressure_vector": "Cognitive lens transfer",
+    "failure_mode": "Labels feel arbitrary"
+  },
+  {
+    "frame": "Bias-card curriculum",
+    "mechanism": "A training cohort learns decision quality through repeated use of the bias-card vocabulary.",
+    "actor": "Instructor and trainees",
+    "trigger": "Analyst bootcamp begins",
+    "carrier": "Course exercises",
+    "pressure_vector": "Habit imprinting and shared language",
+    "failure_mode": "Training vocabulary does not enter workplace practice"
+  }
+]

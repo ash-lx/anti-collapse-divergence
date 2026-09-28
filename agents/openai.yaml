@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anti-Collapse Divergence"
+  short_description: "Generate broad, mechanism-level brainstorms without collapsing into generic bubbles."
+  default_prompt: "Use anti-collapse-divergence to explore non-obvious frames for: "
+policy:
+  allow_implicit_invocation: true

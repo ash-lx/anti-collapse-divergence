@@ -1,0 +1,22 @@
+[
+  {
+    "frame": "Quiet ingress toll",
+    "mechanism": "The receiving party will only let a proposal enter the room after the sender attaches a trusted preparation mark.",
+    "actor": "sender",
+    "trigger": "proposal crosses an authority boundary",
+    "carrier": "preparation mark traveling with the proposal",
+    "pressure_vector": "the room refuses unmarked inputs",
+    "power_holder": "receiver",
+    "failure_mode": "receivers accept unmarked proposals anyway"
+  },
+  {
+    "frame": "Threshold passport",
+    "mechanism": "An upstream contributor gains passage only by carrying a recognized readiness token into a downstream decision space.",
+    "actor": "upstream contributor",
+    "trigger": "handoff into a decision space",
+    "carrier": "readiness token",
+    "pressure_vector": "passage depends on recognized preparation",
+    "power_holder": "downstream decision space owner",
+    "failure_mode": "the token is ignored at the threshold"
+  }
+]

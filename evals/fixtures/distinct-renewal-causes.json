@@ -1,0 +1,20 @@
+[
+  {
+    "frame": "Cash shortage",
+    "actor": "Subscriber",
+    "trigger": "Monthly renewal",
+    "carrier": "Subscription renewal",
+    "mechanism": "A subscriber cancels at monthly renewal because essential spending leaves insufficient money to pay the subscription bill.",
+    "pressure_vector": "Household cash shortage makes the bill unaffordable",
+    "failure_mode": "Cancellation persists even when the bill is made affordable"
+  },
+  {
+    "frame": "Job completed",
+    "actor": "Subscriber",
+    "trigger": "Monthly renewal",
+    "carrier": "Subscription renewal",
+    "mechanism": "A subscriber cancels at monthly renewal because the finite project is finished and further subscription access provides no useful work.",
+    "pressure_vector": "The completed task eliminates continuing demand",
+    "failure_mode": "Cancellation persists among subscribers with substantial unfinished work"
+  }
+]
